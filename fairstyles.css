@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+  padding:20px;
+}
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 57px;
+  font-weight:700;
+  letter-spacing: 3px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 47px;
+  font-weight:300;
+  line-height:30px;
+}
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+blockquote {
+  font-size:20px;
+  line-height:28px;
+}
+a {
+  display:block;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color:red;
+  font-size:17px;
+}
+a:hover {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color:purple;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:17px;
+}
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+<!-- CONTACTFORM -->
+.wrapper {
+  width:600px;
+  padding:20px;
+  background:white;
+}
+.wrapper input [type=text],
+.wrapper input [type=email],
+textarea {
+    width:50%;
+    margin-bottom:15px;
+    padding:5px;
+}
+input {
+  display:block;
+  margin-bottom:15px;
+  width:300px;
+  height:25px;
+}
+.wrapper p {
+  font-size:15px;
+}
+.wrapper a {
+  display:block;
+  text-decoration: uppercase;
+  background-color: #444444;
+  color:white;
+  font-size:20px;
+  padding:15px 30px 15px 30px;
+  text-align: center;
+  width:25%;
+}
+.wrapper a:hover {
+  background-color: red;
+  color:white;
+}
+<!-- IMAGES -->
+#container {
+  padding:auto;
+  margin:0 auto;
+  text-align: left;
+}
+.abstract1 {
+  width: 325px;
+  height: 200px;
+  display:inline-block;
+}
+.abstract2 {
+  width: 325px;
+  height: 200px;
+  display:inline-block;
+  filter: grayscale(100%);
+}
+.abstract3 {
+  width: 325px;
+  height: 200px;
+  display:inline-block;
+  border-radius: 15px 15px 15px 15px;
+  background: #ff0000;
+  padding: 15px;
+}
+.abstract4 {
+  width: 325px;
+  height: 200px;
+  display:inline-block;
+}
+<!-- ABOUT -->
+.bg {
+    background-image: url("/Users/solflutter/OneDrive/FairPortfolio/Image6.jpg");
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0px;
+}
+.about {
+  padding:200px 20px 200px 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width:400px;
+  background-position: center;
+  color:#444444;
+}
